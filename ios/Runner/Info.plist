@@ -28,6 +28,14 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app requires access to the local network for debugging.</string>
+	<key>NSBonjourServices</key>
+	<array>
+  	<string>_dartobservatory._tcp</string>
+	</array>
+
+	
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -45,5 +53,20 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<key>GIDClientID</key>
+	<string>72336713552-3370fdt035qrpn51chm8kf9dt946qtir.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<!-- Copied from GoogleService-Info.plist key REVERSED_CLIENT_ID -->
+				<string>com.googleusercontent.apps.72336713552-3370fdt035qrpn51chm8kf9dt946qtir</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
